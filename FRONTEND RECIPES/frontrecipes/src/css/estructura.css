@@ -1,0 +1,930 @@
+section{
+    padding: 50px 0;
+}
+
+article{
+    padding: 20px 10px;
+    margin: 10px 0;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+.backgroundred{
+    background-color: red;
+}
+.oculto{
+	display: none!important;
+}
+
+.ocultoi{
+    display: none!important;
+}
+
+.overflow_h{
+	overflow: hidden;
+}
+
+.textcen{
+	text-align: center;
+}
+
+.textder{
+	text-align: right;
+}
+
+.texttach{
+	text-decoration: line-through;
+}
+
+
+.mt20{
+	margin-top: 20px;	
+}
+
+.mt40{
+    margin-top: 40px;
+}
+
+.mb20{
+	margin-bottom: 20px;	
+}
+
+.mb40{
+	margin-bottom: 40px;	
+}
+
+.mr20{
+    margin-right: 20px;
+}
+
+.mr10{
+    margin-right: 10px;
+}
+
+.mtb20{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.m0{
+    margin: 0;
+}
+
+.pt20{
+	padding-top: 20px;	
+}
+
+.pt40{
+    padding-top: 40px;
+}
+
+.pb20{
+	padding-bottom: 20px;	
+}
+
+.pb40{
+	padding-bottom: 40px;	
+}
+
+.p20{
+    padding: 20px 20px;
+}
+
+.pb10{
+    padding-bottom: 10px;
+}
+
+.pl20{
+    padding-left: 20px;
+}
+.p0{
+    padding: 0;
+}
+
+.size30{
+    font-size: 30px;
+}
+.absoluto{
+	position: absolute;
+}
+
+.relativo{
+	position: relative;
+}
+
+
+
+.contenido{
+    padding: 50px 0;
+}
+
+.centrado{
+    width: 98%;
+}
+
+
+.fullview{
+    width: 100%!important;
+}
+.xs100{
+    width: 100%;
+}
+
+.xs95{
+    width: 95%;
+}
+
+.xs90{
+    width: 90%;
+}
+
+.xs85{
+    width: 85%;
+}
+
+.xs80{
+    width: 80%;
+}
+
+.xs75{
+    width: 75%;
+}
+
+.xs70{
+    width: 70%;
+}
+
+.xs65{
+    width: 65%;
+}
+
+.xs60{
+    width: 60%;
+}
+
+.xs55{
+    width: 55%;
+}
+
+.xs50{
+    width: 50%;
+}
+
+.xs45{
+    width: 45%;
+}
+
+.xs40{
+    width: 40%;
+}
+
+.xs35{
+    width: 35%;
+}
+
+.xs33{
+    width: 33%;
+}
+.xs30{
+    width: 30%;
+}
+
+.xs25{
+    width: 25%;
+}
+
+.xs20{
+    width: 20%;
+}
+
+.xs15{
+    width: 15%;
+}
+
+.xs10{
+    width: 10%;
+}
+
+.xs5{
+    width: 5%;
+}
+
+.xsoculto{
+    display:none!important;
+}
+
+
+.flex{
+    display: flex;
+}
+
+
+.just_center{
+	justify-content:center;
+	display:flex;
+}
+
+
+
+.just_SB{
+	justify-content:space-between;
+	display:flex;
+}
+
+
+.just_AR{
+	justify-content:space-around;
+	display:flex;
+}
+
+
+.just_EVE{
+	justify-content:space-evenly;
+	display:flex;
+}
+
+
+.just_star{
+	justify-content: flex-start;
+	display:flex;
+}
+
+
+.just_end{
+	justify-content: flex-end;
+	display:flex;
+}
+
+
+.flex_dir_col{
+	flex-direction: column;
+	display:flex;
+}
+
+
+.flex_dir_col_wrap{
+	flex-direction: column;
+	display:flex;
+	flex-wrap:wrap; 
+}
+
+
+
+.flex_dir_col_rever{
+	flex-direction: column-reverse;
+	display:flex;
+}
+
+
+
+.flex_dir_row{
+	flex-direction:row;
+	display:flex;
+}
+
+
+.flex_dir_row_rev{
+	flex-direction:row-reverse;
+	display:flex;
+}
+
+
+.ali_flex_end{
+	display:flex;
+	align-items:flex-end;
+}
+
+
+.ali_star{
+	display:flex;
+	align-items:flex-start;
+}
+
+
+.ali_center{
+	align-items: center;
+	display:flex;
+}
+
+
+.ali_stretch{
+	align-items: stretch;
+	display:flex;
+}
+
+
+
+.ali_basel{
+	align-items: baseline;
+	display:flex;
+}
+
+
+.flex_wrap_now{
+	display:flex;
+	flex-wrap: nowrap;
+}
+
+
+.flex_wrap{
+	display:flex;
+	flex-wrap: wrap;
+}
+
+
+.flex_wrap_reve{
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.flex_fcol{
+    flex-flow: column;
+}
+
+.flex_fcolrev{
+    flex-flow: column-reverse;
+}
+
+.flex_frw{
+    flex-flow: row wrap;
+}
+
+.flex_frev{
+    flex-flow: row-reverse;
+}
+
+
+
+@media only screen and (min-width: 425px){
+
+ 
+    .s100{
+        width: 100%;
+    }
+
+    .s95{
+        width: 95%;
+    }
+
+    .s90{
+        width: 90%;
+    }
+
+    .s85{
+        width: 85%;
+    }
+
+    .s80{
+        width: 80%;
+    }
+
+    .s75{
+        width: 75%;
+    }
+
+    .s70{
+        width: 70%;
+    }
+
+    .s65{
+        width: 65%;
+    }
+
+    .s60{
+        width: 60%;
+    }
+
+    .s55{
+        width: 55%;
+    }
+
+    .s50{
+        width: 50%;
+    }
+
+    .s45{
+        width: 45%;
+    }
+
+    .s40{
+        width: 40%;
+    }
+
+    .s35{
+        width: 35%;
+    }
+    
+    .s33{
+        width: 33%;
+    }
+
+    .s30{
+        width: 30%;
+    }
+
+    .s25{
+        width: 25%;
+    }
+
+    .s20{
+        width: 20%;
+    }
+
+    .s15{
+        width: 15%;
+    }
+
+    .s10{
+        width: 10%;
+    }
+
+    .s5{
+        width: 5%;
+    }
+
+    .soculto{
+        display:none!important;
+    }
+    
+
+
+    
+    .sf{
+        display: flex;
+    }
+    .sfc{
+        flex-direction: column;
+    }
+
+    .sffc{
+        flex-flow: column;
+    }
+
+    .sffcr{
+        flex-flow: column-reverse;
+    }
+    
+    .sffr{
+        flex-flow: row wrap;
+    }
+
+    .sffrr{
+        flex-flow: row-reverse;
+    }
+
+    .sac{
+        align-items: center;
+    }
+
+    .safs{
+        align-items: flex-start;
+    }
+
+    .sjc{
+        justify-content: center;
+    }
+
+    .ssb{
+        justify-content: space-between;
+    }
+
+    .ssa{
+        justify-content: space-around;
+    }
+
+    
+    
+}
+
+@media only screen and (min-width: 768px){
+    
+    .centrado{
+        width: 95%;
+    }
+    
+  
+    
+
+    .m100{
+        width: 100%;
+    }
+
+    .m95{
+        width: 95%;
+    }
+
+    .m90{
+        width: 90%;
+    }
+
+    .m85{
+        width: 85%;
+    }
+
+    .m80{
+        width: 80%;
+    }
+
+    .m75{
+        width: 75%;
+    }
+
+    .m70{
+        width: 70%;
+    }
+
+    .m65{
+        width: 65%;
+    }
+
+    .m60{
+        width: 60%;
+    }
+
+    .m55{
+        width: 55%;
+    }
+
+    .m50{
+        width: 50%;
+    }
+
+    .m45{
+        width: 45%;
+    }
+
+    .m40{
+        width: 40%;
+    }
+
+    .m35{
+        width: 35%;
+    }
+
+    .m30{
+        width: 30%;
+    }
+
+    .m25{
+        width: 25%;
+    }
+
+    .m20{
+        width: 20%;
+    }
+
+    .m15{
+        width: 15%;
+    }
+
+    .m10{
+        width: 10%;
+    }
+
+    .m5{
+        width: 5%;
+    }
+
+    .moculto{
+        display:none!important;
+    }
+
+    .mblock{
+        display:block!important;
+    }
+
+    .mf{
+        display: flex!important;
+    }
+
+    .mfc{
+        flex-direction: column;
+    }
+
+    .mffc{
+        flex-flow: column;
+    }
+
+    .mffcr{
+        flex-flow: column-reverse;
+    }
+    
+    .mffrw{
+        flex-flow: row wrap;
+    }
+
+    .mffrr{
+        flex-flow: row-reverse;
+    }
+
+    .mac{
+        align-items: center;
+    }
+
+    .mafs{
+        align-items: flex-start;
+    }
+
+    .mjc{
+        justify-content: center;
+    }
+
+    .msb{
+        justify-content: space-between;
+    }
+
+    .msa{
+        justify-content: space-around;
+    }
+
+ 
+    
+}
+
+@media only screen and (min-width: 1024px){
+    
+ 
+
+    .centrado{
+        width: 1200px;
+    }
+
+    section{
+        padding: 30px 0;
+    }
+
+    .lf{
+        display: flex;
+    }
+
+    .l100{
+        width: 100%;
+    }
+
+    .l95{
+        width: 95%;
+    }
+
+    .l90{
+        width: 90%;
+    }
+
+    .l85{
+        width: 85%;
+    }
+
+    .l80{
+        width: 80%;
+    }
+
+    .l75{
+        width: 75%;
+    }
+
+    .l70{
+        width: 70%;
+    }
+
+    .l65{
+        width: 65%;
+    }
+
+    .l60{
+        width: 60%;
+    }
+
+    .l55{
+        width: 55%;
+    }
+
+    .l50{
+        width: 50%;
+    }
+
+    .l45{
+        width: 45%;
+    }
+
+    .l40{
+        width: 40%;
+    }
+
+    .l35{
+        width: 35%;
+    }
+
+    .l33{
+        width: 33%;
+    }
+
+    .l30{
+        width: 30%;
+    }
+
+    .l25{
+        width: 25%;
+    }
+
+    .l20{
+        width: 20%;
+    }
+
+    .l15{
+        width: 15%;
+    }
+
+    .l10{
+        width: 10%;
+    }
+
+    .l5{
+        width: 5%;
+    }
+    
+    .loculto{
+        display:none!important;
+    }
+
+    .lblock{
+        display:block!important;
+    }
+   
+    
+    .lfc{
+        flex-flow: column;
+    }
+
+    .lfcr{
+        flex-flow: column-reverse;
+    }
+    
+    .lfrw{
+        flex-flow: row wrap;
+    }
+
+    .lfrr{
+        flex-flow: row-reverse;
+    }
+
+    .lac{
+        align-items: center;
+    }
+
+    .lafs{
+        align-items: flex-start;
+    }
+
+    .ljc{
+        justify-content: center;
+    }
+
+    .lsb{
+        justify-content: space-between;
+    }
+
+    .lsa{
+        justify-content: space-around;
+    }
+
+ 
+    
+}
+
+@media only screen and (min-width: 1440px){
+
+
+    .centrado{
+        width: 1200px;
+    }
+
+    .xl100{
+        width: 100%;
+    }
+
+    .xl95{
+        width: 95%;
+    }
+
+    .xl90{
+        width: 90%;
+    }
+
+    .xl85{
+        width: 85%;
+    }
+
+    .xl80{
+        width: 80%;
+    }
+
+    .xl75{
+        width: 75%;
+    }
+
+    .xl70{
+        width: 70%;
+    }
+
+    .xl65{
+        width: 65%;
+    }
+
+    .xl60{
+        width: 60%;
+    }
+
+    .xl55{
+        width: 55%;
+    }
+
+    .xl50{
+        width: 50%;
+    }
+
+    .xl45{
+        width: 45%;
+    }
+
+    .xl40{
+        width: 40%;
+    }
+
+    .xl35{
+        width: 35%;
+    }
+
+    .xl30{
+        width: 30%;
+    }
+
+    .xl25{
+        width: 25%;
+    }
+
+    .xl20{
+        width: 20%;
+    }
+
+    .xl15{
+        width: 15%;
+    }
+
+    .xl10{
+        width: 10%;
+    }
+
+    .xl5{
+        width: 5%;
+    }
+    
+    .xloculto{
+        display:none!important;
+    }
+  
+    .xlf{
+        display: flex;
+    }
+    .xlfc{
+        flex-direction: column;
+    }
+
+    .xlffc{
+        flex-flow: column;
+    }
+
+    .xlffcr{
+        flex-flow: column-reverse;
+    }
+    
+    .xlffrw{
+        flex-flow: row wrap;
+    }
+
+    .xlffrr{
+        flex-flow: row-reverse;
+    }
+
+    .xlac{
+        align-items: center;
+    }
+
+    .xlafs{
+        align-items: flex-start;
+    }
+
+    .xljc{
+        justify-content: center;
+    }
+
+    .xlsb{
+        justify-content: space-between;
+    }
+
+    .xlsa{
+        justify-content: space-around;
+    }
+
+ 
+    
+}
+
